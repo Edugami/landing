@@ -323,6 +323,17 @@ p{
   .glider-contain{
     z-index: -1000;
   }
+  .subtitle{
+    text-align: justify;
+  }
+  .glider-contain *{
+    margin-right: 10px;
+  }
+  .glider-contain img{
+    width: 200px;
+    height: 200px;
+
+  }
   .bloque-1{
     
     flex-direction: column;
@@ -391,8 +402,9 @@ p{
     top: 0;
   }
   h3{
-    display: flex;
-    flex-wrap: wrap;
+/*     display: flex;
+    
+    flex-wrap: wrap; */
     font-size: 36px;
     margin-right: 20px;
   }
@@ -402,7 +414,7 @@ p{
     z-index: -100;
   }
   p{
-    margin-right: 40px;
+    
     text-align: justify;
   }
   *:before,

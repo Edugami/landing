@@ -1,4 +1,4 @@
-window.addEventListener('load', function(){
+window.addEventListener('load', function () {
   const glider = new Glider(document.querySelector('.glider'), {
     slidesToShow: 1,
     dots: '#dots',
@@ -20,14 +20,14 @@ window.addEventListener('load', function(){
   });
 
   function sliderAuto(slider, miliseconds) {
-    const slidesCount = slider.track.childElementCount -1;
+    const slidesCount = slider.track.childElementCount - 1;
     let slideTimeout = null;
     let nextIndex = 1;
-   
-    function slide () {
+
+    function slide() {
       slideTimeout = setTimeout(
         function () {
-          if (nextIndex >= slidesCount ) {
+          if (nextIndex >= slidesCount) {
             nextIndex = 0;
           }
           slider.scrollItem(nextIndex++);
@@ -35,16 +35,26 @@ window.addEventListener('load', function(){
         miliseconds
       );
     }
-   
-    slider.ele.addEventListener('glider-animated', function() {
+
+    slider.ele.addEventListener('glider-animated', function () {
       window.clearInterval(slideTimeout);
       slide();
     });
-   
+
     slide();
-   }
-   
-   sliderAuto(glider, 2000)
-   sliderAuto(glider2, 2500)
+  }
+
+  sliderAuto(glider, 4000)
+  sliderAuto(glider2, 4000)
+
+
+  
+
 
 });
+
+
+//Video opciones
+
+var myVideo = document.getElementById('videoId');
+
