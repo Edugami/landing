@@ -54,7 +54,5 @@ window.addEventListener('load', function () {
 });
 
 
-//Video opciones
 
-var myVideo = document.getElementById('videoId');
 
