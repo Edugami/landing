@@ -428,6 +428,10 @@ p{
     left: -20px;
     z-index: -100;
   }
+
+  .botonera *{
+    width: 90px;
+  }
   .btn-agenda{
     margin: auto;
     margin-left: 15px;
