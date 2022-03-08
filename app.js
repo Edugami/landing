@@ -48,6 +48,8 @@ window.addEventListener('load', function () {
   sliderAuto(glider2, 4000)
 
 
+  document.getElementById('vid').play();
+
   
 
 
