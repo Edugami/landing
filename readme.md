@@ -1,11 +1,5 @@
-# landing-edugami
+#Home edugami.pro
 
-## landing beta
-
-### work in progress~
-
-> Agregando Enlaces
-
-> Agregando Carrousel
-
-> Responsive
+##Single page
+##Diseño responsive
+##Bootstrap
