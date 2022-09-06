@@ -1,5 +1,8 @@
-#Home edugami.pro
+# Home edugami.pro
 
-##Single page
-##Diseño responsive
-##Bootstrap
+```
+## Single page
+
+## Diseño responsive
+
+## Bootstrap
