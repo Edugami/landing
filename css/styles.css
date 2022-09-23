@@ -555,11 +555,11 @@ p{
   text-align: justify !important;
 }
 .imgfooterresponsive{
-  width: 90px;
+  width: 200px;
 }
 @media (min-width: 768px) { 
   .imgfooterresponsive{
-    width: 120px;
+    width: 270px;
   }
   .texto-main{
     font-family: 'Lexend';
